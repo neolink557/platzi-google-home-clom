@@ -1,0 +1,132 @@
+body{
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ),
+    /* bottom, image */
+    url("../img/bg-page.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 8px;
+  padding: 0;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+header {
+  width: 100%;
+  height: 60px;
+}
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+header  nav .nav-right-section {
+  width: 180px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+nav .nav-right-section a{
+  margin-right: 15px;
+  color: white;
+}
+nav .nav-right-section .menu-icon {
+    cursor: pointer;
+    background-image: url("../img/dots.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+main {
+  margin-top: 100px;
+  text-align: center;
+}
+main .main-logo {
+  width: 530px;
+  margin: 0 auto 35px;
+}
+
+main .main-logo img{
+  width: 270px;
+}
+main .main-input{
+   width: 550px;
+   margin: 0 auto;
+   margin-bottom: 20px;
+}
+main .main-input-container{
+  width: 540px;
+  height: 42px;
+  border-radius: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main-buttons div button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  background-image: url("../img/add.svg");
+  margin: 0 auto;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+}
+main .main-buttons{
+  display: flex;
+  justify-content: center;
+}
+main .main-buttons div p {
+  color: white;
+}
+main .main-buttons div{
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+main .main-buttons div:hover{
+  background-color: rgba(255, 255, 255, 0.15);
+}
+main .main-input input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+
+main .main-input .search-icon{
+  background-image: url("https://cdn0.iconfinder.com/data/icons/google-material-design-3-0/48/ic_search_48px-512.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+}
+main .main-input .micro-icon{
+  background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+
+main .main-input :focus{
+
+}
